@@ -3,6 +3,7 @@
 ## Descripción
 
 Este repositorio contiene la solución a la práctica final de la asignatura **Modelos Avanzados de Computación (MAC)**. El proyecto consiste en una implementación del juego **Conecta4** que integra un jugador con inteligencia artificial (IA) desarrollada en **Haskell**. La solución ha sido desarrollada por los estudiantes **Kevin Jesús Banda Azogil** y **Jesús David Calvente Zapata**.
+Esta versión del Conecta4 incluye una interfaz gráfica desarrollada en Python y la IA desarrollada en Haskell. Ambas se comunican a través de un fichero txt que representa el estado actual del tablero.
 
 ## Estructura del repositorio
 
@@ -26,62 +27,23 @@ Para ejecutar el proyecto en tu entorno local, asegúrate de tener instalados lo
 - **Python 3.9**: Necesario para ejecutar los scripts en Python.
 
 ## Instalación y ejecución
+   1. Clonar el repositorio:
 
-### En Windows
+      ```bash
+         git clone https://github.com/jcalvente083/MAC_PracticaFinal_KJBA_JDCZ.git
+      ```
 
-1. **Compilar y ejecutar desde Haskell**:
-
-   - Abre una terminal en el directorio del proyecto.
-   - Compila el código Haskell:
-
-     ```bash
-     ghc -o main main.hs
-     ```
-
-   - Ejecuta el juego:
-
-     ```bash
-     ./main.exe
-     ```
-
-2. **Ejecutar utilizando el script en Python**:
-
-   - Abre una terminal en el directorio del proyecto.
-   - Ejecuta el script:
-
-     ```bash
-     python conecta4.py
-     ```
-
-   - Sigue las instrucciones en pantalla para jugar.
-
-### En Linux/macOS
-
-1. **Compilar y ejecutar desde Haskell**:
-
-   - Abre una terminal en el directorio del proyecto.
-   - Compila el código Haskell:
-
-     ```bash
-     ghc -o main main.hs
-     ```
-
-   - Ejecuta el juego:
-
-     ```bash
-     ./main
-     ```
-
-2. **Ejecutar utilizando el script en Python**:
-
-   - Abre una terminal en el directorio del proyecto.
-   - Ejecuta el script:
-
-     ```bash
-     python3 conecta4.py
-     ```
-
-   - Sigue las instrucciones en pantalla para jugar.
+   2. Acceder a la carpeta del proyecto:
+      
+      ```bash
+         cd ./MAC_PracticaFinal_KJBA_JDCZ
+      ```
+   
+   3. Ejecutar el juego:
+      
+      ```bash
+         python ./conecta4.py
+      ```
 
 
 ## Contacto
